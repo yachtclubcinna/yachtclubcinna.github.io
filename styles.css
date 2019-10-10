@@ -1,0 +1,155 @@
+	*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.head{
+	grid-area: head;
+	background: #801336;
+	text-align: center;
+	align-items: center;
+	padding: 30px;
+	color: white
+}
+.space{
+	grid-area: space;
+}
+body{
+	background: #EF4648;
+    display: grid;
+    grid-template-areas: 
+    'head head head head'
+    'space sidebar mains mains';
+    row-gap: 30px;
+    column-gap: 0px;
+}
+.sidebar{
+	grid-area: sidebar;
+	height: 1100px;
+	width: 260px;
+	background-color: #305F72;    
+    padding: 20px;   
+    box-shadow: rgb(16, 94, 19);
+}
+.main{
+	
+    grid-area: mains;
+    width : 500px;
+}
+.main > div{
+    margin-bottom: 35px;
+}
+#pic{
+	float: center;
+	width: 100%;
+	border: 2px solid #fff;
+	border-radius: 50%;
+}
+.picture{
+    text-align: center;
+}
+
+.sidebar{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sidebar > div{
+    margin-top: 30px;
+	
+}
+h2{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+hr{
+    margin-top: 25px;
+    border: 5px solid black;
+}
+#lineseparation{
+	border: 2px solid black
+}
+#headings{
+    border: 2px solid black;
+    align-content: center;
+    width: 800px;
+   
+    margin-left: 500px;
+}
+#phoneicon,#mailicon,#facebook,#twitter,#linkedin{
+	 width: 40px;
+    height: 40px;
+}
+.sectiona{
+	display: flex;
+	flex-direction: column;
+}
+.phone,.emailicon{
+	display: flex;
+    flex-direction: row;    
+    margin-top: 40px;
+    padding: 0px; 
+}
+.sectionb{
+	display: flex;
+    flex-direction: column;
+}
+a{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.facebookicon,.linkedinicon,.twittericon{
+	display: flex;
+    flex-direction: row;    
+    margin-top: 40px;
+    margin-bottom: 40px;;
+    padding: 0px;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+a:active {
+text-decoration: underline;
+}
+.work{
+	padding: 30px 0px;
+	border-bottom: 3px solid #305F72;
+}
+.education{
+	margin-bottom: 1rem;
+	border-bottom: 3px solid #305F72;
+}
+.skills{
+	padding: 30px 0px;
+	border-bottom: 3px solid #305F72;
+}
+#list {
+	font-size: 20pt;
+
+}
+#headings{
+	margin: 0 auto;
+	font-size: 30pt;
+}
+.biography{
+	font-size: 20pt
+}
+.date{
+	font-size: 20pt;
+}
+.school,.place{
+	font-size: 20pt;
+}
+.sidebar{
+	font-size: 20pt;
+}
